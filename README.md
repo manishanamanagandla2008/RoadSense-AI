@@ -6,7 +6,6 @@ RoadSense AI is a modern, responsive, full-stack road safety analytics platform 
 
 ## 🌐 Live Deployments & Links
 
-- **🚀 Live Production App**: [https://ais-pre-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app](https://ais-pre-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app)
 - **🛠️ Development App**: [https://ais-dev-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app](https://ais-dev-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app)
 - **📦 GitHub Repository**: [https://github.com/manishanamanagandla2008/RoadSense-AI](https://github.com/manishanamanagandla2008/RoadSense-AI)
 
