@@ -4,10 +4,25 @@ RoadSense AI is a modern, responsive, full-stack road safety analytics platform 
 
 ---
 
-## 🌐 Live Deployments & Links
+## 🌐 Live Access & Deployment
 
-- **🛠️ Development App**: [https://ais-dev-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app](https://ais-dev-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app)
+- **🛠️ AI Studio Workspace**: [https://ais-dev-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app](https://ais-dev-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app) *(accessible when logged into your AI Studio Google account)*
+- **🚀 Public Shared Preview**: [https://ais-pre-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app](https://ais-pre-gq3lxm3mmm7bpdl2zewslm-383790507625.asia-east1.run.app) *(activates upon clicking the "Share / Publish" button in the AI Studio editor header)*
 - **📦 GitHub Repository**: [https://github.com/manishanamanagandla2008/RoadSense-AI](https://github.com/manishanamanagandla2008/RoadSense-AI)
+
+### ⚡ Quick Start (Run Locally in 1 Minute)
+```bash
+# 1. Clone the repository
+git clone https://github.com/manishanamanagandla2008/RoadSense-AI.git
+cd RoadSense-AI
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the full-stack real-time platform
+npm run dev
+```
+Open **[http://localhost:3000](http://localhost:3000)** in your browser. The embedded relational database and 140 incident benchmark records will initialize automatically.
 
 ---
 
