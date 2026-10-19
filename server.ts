@@ -12,7 +12,10 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
+  const portArgIndex = process.argv.indexOf('--port');
+  const cliPort = portArgIndex !== -1 ? parseInt(process.argv[portArgIndex + 1]) : null;
+  // If PORT=8080, it's reserved for nginx proxy, so app must listen on 3000
+  const PORT = cliPort || (process.env.PORT && process.env.PORT !== '8080' ? parseInt(process.env.PORT) : 3000);
 
   // Initialize relational SQL database
   console.log('[RoadSense AI] Initializing database...');
